@@ -4,11 +4,11 @@ while 1:
     d -= a
     b -= c
     if d <= 0 and b <= 0:
-        print('DRAW')
+        print("DRAW")
         break
     elif d <= 0:
-        print('PLAYER A')
+        print("PLAYER A")
         break
     elif b <= 0:
-        print('PLAYER B')
+        print("PLAYER B")
         break

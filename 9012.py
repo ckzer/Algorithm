@@ -5,7 +5,7 @@ for i in range(t):
     left = right = 0
     case = input()
     for j in case:
-        if j == '(':
+        if j == "(":
             left += 1
         else:
             right += 1
@@ -13,8 +13,8 @@ for i in range(t):
             tmp = 0
             break
     if tmp == 0:
-        print('NO')
+        print("NO")
     elif left == right:
-        print('YES')
+        print("YES")
     else:
-        print('NO')
+        print("NO")

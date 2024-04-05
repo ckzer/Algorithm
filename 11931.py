@@ -1,4 +1,4 @@
-input = __import__('sys').stdin.readline
+input = __import__("sys").stdin.readline
 n = int(input())
 a = []
 for i in range(n):

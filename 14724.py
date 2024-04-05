@@ -1,14 +1,14 @@
 n = int(input())
 club = {
-    'PROBRAIN': 0,
-    'GROW': 0,
-    'ARGOS': 0,
-    'ADMIN': 0,
-    'ANT': 0,
-    'MOTION': 0,
-    'SPG': 0,
-    'COMON': 0,
-    'ALMIGHTY': 0
+    "PROBRAIN": 0,
+    "GROW": 0,
+    "ARGOS": 0,
+    "ADMIN": 0,
+    "ANT": 0,
+    "MOTION": 0,
+    "SPG": 0,
+    "COMON": 0,
+    "ALMIGHTY": 0,
 }
 cnt_key = list(club.keys())
 cnt = list()

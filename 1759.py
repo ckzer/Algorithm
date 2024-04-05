@@ -1,1 +1,1 @@
-l, c=map(int, input().split())
+l, c = map(int, input().split())

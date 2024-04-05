@@ -5,6 +5,6 @@ for i in range(t):
     li2 = sorted(list(b))
 
     if li1 == li2:
-        print(a + ' & ' + b + " are anagrams.")
+        print(a + " & " + b + " are anagrams.")
     else:
-        print(a + ' & ' + b + " are NOT anagrams.")
+        print(a + " & " + b + " are NOT anagrams.")

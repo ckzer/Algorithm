@@ -1,2 +1,2 @@
-n=input()
+n = input()
 print(n.upper())

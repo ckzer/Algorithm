@@ -1,13 +1,13 @@
 a = int(input())
 b = int(input())
 if a > 2:
-    print('After')
+    print("After")
 elif a == 2:
     if b == 18:
-        print('Special')
+        print("Special")
     elif b > 18:
-        print('After')
+        print("After")
     else:
-        print('Before')
+        print("Before")
 else:
-    print('Before')
+    print("Before")

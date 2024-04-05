@@ -1,2 +1,2 @@
 a = int(input())
-print(a-1946)
+print(a - 1946)

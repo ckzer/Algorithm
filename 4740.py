@@ -1,5 +1,5 @@
 while True:
     a = input()
-    if a == '***':
+    if a == "***":
         break
     print(a[::-1])

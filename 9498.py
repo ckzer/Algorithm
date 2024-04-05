@@ -1,11 +1,11 @@
 test = int(input())
 if test >= 90:
-    print('A')
+    print("A")
 elif test >= 80:
-    print('B')
+    print("B")
 elif test >= 70:
-    print('C')
+    print("C")
 elif test >= 60:
-    print('D')
+    print("D")
 else:
-    print('F')
+    print("F")

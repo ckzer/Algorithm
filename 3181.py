@@ -1,5 +1,5 @@
 a = input().split()
-li1 = ['i', 'pa', 'te', 'ni', 'niti', 'a', 'ali', 'nego', 'no', 'ili']
+li1 = ["i", "pa", "te", "ni", "niti", "a", "ali", "nego", "no", "ili"]
 r = a[0][0]
 
 for i in range(1, len(a)):

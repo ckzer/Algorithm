@@ -8,6 +8,6 @@ for i in range(n):
     else:
         sum0 += 1
 if sum1 > sum0:
-    print('Junhee is cute!')
+    print("Junhee is cute!")
 else:
-    print('Junhee is not cute!')
+    print("Junhee is not cute!")

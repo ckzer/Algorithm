@@ -1,8 +1,8 @@
 n, m = map(int, input().split())
-li=dict()
+li = dict()
 for i in range(n):
-    a, b=input().split()
-    li[a]=b
+    a, b = input().split()
+    li[a] = b
 for i in range(m):
-    a=input()
+    a = input()
     print(li[a])

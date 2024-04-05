@@ -1,13 +1,13 @@
 while True:
     a = input()
-    if a == '*':
+    if a == "*":
         break
     d = {}
     for i in range(26):
         d[chr(97 + i)] = 0
 
     for i in range(len(a)):
-        if ord('a') <= ord(a[i]) <= ord('z'):
+        if ord("a") <= ord(a[i]) <= ord("z"):
             d[a[i]] = 1
 
     d_key = list(d.keys())
@@ -17,4 +17,4 @@ while True:
             flag = False
             break
 
-    print('Y' if flag == True else 'N')
+    print("Y" if flag == True else "N")

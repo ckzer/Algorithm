@@ -4,4 +4,4 @@ for _ in range(t):
     if a[len(a) // 2] == a[len(a) // 2 - 1]:
         print("Do-it")
     else:
-        print('Do-it-Not')
+        print("Do-it-Not")

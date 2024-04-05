@@ -12,18 +12,18 @@ for i in range(10):
         b_cnt += 1
 print(a_cnt, b_cnt)
 if a_cnt > b_cnt:
-    print('A')
+    print("A")
 elif a_cnt < b_cnt:
-    print('B')
+    print("B")
 elif a_cnt == b_cnt == 10:
-    print('D')
+    print("D")
 else:
     for i in range(1, 11):
         if a[-i] > b[-i]:
-            print('A')
+            print("A")
             break
         elif a[-i] < b[-i]:
-            print('B')
+            print("B")
             break
         else:
             continue

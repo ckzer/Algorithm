@@ -14,4 +14,4 @@ if len(ans) == 0:
     print("PREDAJA")
 else:
     ans.sort()
-    print(''.join(ans))
+    print("".join(ans))

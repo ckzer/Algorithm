@@ -5,16 +5,16 @@ for i in range(len(a)):
     if a[i] == b:
         check = len(a) - i
 if check <= 5:
-    print('A+')
+    print("A+")
 elif check <= 15:
-    print('A0')
+    print("A0")
 elif check <= 30:
-    print('B+')
+    print("B+")
 elif check <= 35:
-    print('B0')
+    print("B0")
 elif check <= 45:
-    print('C+')
+    print("C+")
 elif check <= 48:
-    print('C0')
+    print("C0")
 else:
-    print('F')
+    print("F")

@@ -5,6 +5,6 @@ for i in range(len(a) - 1):
         check = 0
         break
 if check == 1:
-    print('Good')
+    print("Good")
 else:
-    print('Bad')
+    print("Bad")

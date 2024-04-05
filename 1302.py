@@ -18,8 +18,8 @@ print(li1[0])
 n = int(input())
 for i in range(n):
     a = input()
-    a_c = a.count('g') + a.count('G')
-    b_c = a.count('b') + a.count('B')
+    a_c = a.count("g") + a.count("G")
+    b_c = a.count("b") + a.count("B")
     if a_c > b_c:
         print(f"{a} is GOOD")
     elif a_c < b_c:

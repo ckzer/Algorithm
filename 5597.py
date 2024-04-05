@@ -1,4 +1,4 @@
-students = [0]*31
+students = [0] * 31
 for i in range(28):
     n = int(input())
     students[n] = 1

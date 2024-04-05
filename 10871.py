@@ -4,4 +4,4 @@ b = []
 for i in range(n):
     if a[i] < x:
         b.append(a[i])
-print(' '.join(map(str, b)))
+print(" ".join(map(str, b)))

@@ -11,8 +11,8 @@ for i in range(7):
 if sum == 0:
     print(-1)
 else:
-    print(sum, cnt, sep='\n')
-'''다른버전
+    print(sum, cnt, sep="\n")
+"""다른버전
 n = list(int(input()) for _ in range(7))
 odd = []
 sum = 0
@@ -23,4 +23,4 @@ for i in range(len(n)):
 if sum == 0: print(-1)
 else:
     print(sum, min(odd), sep='\n')
-'''
+"""

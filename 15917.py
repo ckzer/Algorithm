@@ -1,4 +1,5 @@
 import sys
+
 input = sys.stdin.readline
 
 a = [2**i for i in range(32)]
